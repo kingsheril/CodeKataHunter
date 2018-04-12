@@ -9,6 +9,8 @@ class grnumber
 		int i=0;
 		int n=in.nextInt();
 		int[] a=new int[15];
+		if(n==0)
+		System.out.print("0");
 		while(n!=0)
 		{
 			a[i]=(n%10);
