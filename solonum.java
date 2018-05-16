@@ -19,8 +19,10 @@ for(int j=0;j<n;j++)
 if((i!=j)&&(a[i]==a[i]))
 c++;
 }
-if(c==0)
+if(c==0){
 System.out.print(a[j]);
+break;
+}
 }
 }
 }
