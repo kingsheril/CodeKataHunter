@@ -11,12 +11,13 @@ class firstrpt
 		a[i]=in.nextInt();
 		for(int j=0;j<i;j++)
 		{
-			if(a[j]==a[i]&&i!=j)
+			if(a[j]==a[i])
 			{
 				System.out.print(a[i]);
-				j=n;
+				System.exit(0);
 			}
 		}
 		}
-	}
+		System.out.print("unique");
+		}
 }
