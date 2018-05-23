@@ -6,7 +6,11 @@ class strrevers
 	{
 		Scanner in=new Scanner(System.in);
 		String s=in.nextLine();
-		StringBuffer st=new StringBuffer(s);
-		System.out.println(st.reverse().toString());
+		String[] st=s.split(" ");
+		for (String i : st)
+		{
+			StringBuffer sb=new StringBuffer(i);
+			System.out.print(sb.reverse().toString()+" ");
+		}
 	}
 }
