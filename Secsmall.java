@@ -23,6 +23,6 @@ class Secsmall
       }
       r[n-k]=a[i];
     }
-    System.out.print(r[m]);
+    System.out.print(r[m-1]);
   }
 }
